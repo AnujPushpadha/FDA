@@ -1,0 +1,231 @@
+body {
+  background-color: #2f1893;
+  margin: 0; /* Remove default margin */
+}
+.wraper {
+  margin: 0;
+}
+nav {
+  width: 972px;
+  height: 40px;
+
+  margin-top: 65px;
+  margin-left: 213px;
+
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* width: 100%; */
+  /* height: 40px; */
+  /* display: flex; */
+
+  padding: 10px 20px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+nav h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: -0.2926828861236572px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0; /* Remove default margin */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.purchase {
+  background-color: #e93a7d;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.second {
+  margin-top: 50px;
+  margin-left: 213px;
+  /* background-color: black; */
+  width: 972px;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  width: 420px;
+}
+.text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #ffffff;
+}
+.text div:nth-child(2) p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.second .text div button {
+  background-color: #e93a7d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+/* Your existing styles */
+
+.form {
+  /* background: #1E0E62; */
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 470px;
+  /* height: 600px; */
+}
+
+.form h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  /* color: #fff; */
+  color: #1e0e62;
+}
+
+.input {
+  width: 330px;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  /* width: 88px; */
+  height: 50px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 30px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox input {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+.checkbox label {
+  color: #15143966;
+}
+
+.form button {
+  background-color: #e93a7d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+#signin {
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  background: #482be7;
+  cursor: pointer;
+}
+#login {
+  background: #1da1f2;
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.form span:nth-child(1) {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #15143966;
+}
+
+.form span:nth-child(2) {
+  color: #25dac5;
+}
+.linecontainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 80px;
+}
+
+.line {
+  width: 141.57px;
+  height: 2px;
+  background: #ebeaed;
+
+  /* border: 2px; */
+  border: 2px solid #ebeaed;
+}
+
+#id {
+  margin: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #15143966;
+}
